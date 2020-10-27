@@ -1,8 +1,7 @@
 require 'matrix' 
 def begining(a,secondempty,i)
-print "Введите строку"
+print "Введите строку "
 x=gets.chomp
-print x
 if secondempty
 if x==""
 logic(a)
@@ -21,11 +20,10 @@ begining(a,secondempty,i)
 end
 
 def logic(a)
-inc=0
 ocn=0
 while ocn<a.size do
 if a[ocn].size!=a.size
-print  'не квадрат!'
+print  'Матрица не квадратная!'
 abort 
 end
 ocn +=1
