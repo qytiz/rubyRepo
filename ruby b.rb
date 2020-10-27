@@ -14,7 +14,7 @@ else
   puts result
   result.each {|key, value|  print "итоговая сумма за #{key} равна "
   value.each{|key2, value2|  puts key2*value2}}
-  puts "Общая цена за все товары в корзине равна #{total}"
+  puts "Общая цена за все товары в корзине равна #{total} "
 end
 end
 result={}
