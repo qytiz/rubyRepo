@@ -17,7 +17,7 @@ else if d==0
     print "Корень: "
     puts x1
     else
-      puts "Корней нет"
+      puts "Корней нет "
     end
 end
 print "Дискриминант: " 
