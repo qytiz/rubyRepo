@@ -23,7 +23,7 @@ def logic(a)
 ocn=0
 while ocn<a.size do
 if a[ocn].size!=a.size
-print  'Матрица не квадратная!'
+print  'Матрица не квадратная! '
 abort 
 end
 ocn +=1
